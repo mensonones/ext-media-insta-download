@@ -1,0 +1,26 @@
+
+{
+  "manifest_version": 2,
+  "name": "Insta Downloader",
+  "description": "Download Instagram stories with a Chrome extension",
+  "version": "0.1",
+  "author": "Jack",
+  "icons": {
+    "16": "images/favicon-16x16.png",
+    "32": "images/favicon-32x32.png",
+    "96": "images/favicon-96x96.png"
+  },
+  "permissions": ["activeTab", "declarativeContent"],
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "html/popup.html",
+    "default_icon": {
+      "16": "images/favicon-16x16.png",
+      "32": "images/favicon-32x32.png",
+      "96": "images/favicon-96x96.png"
+    }
+  }
+}

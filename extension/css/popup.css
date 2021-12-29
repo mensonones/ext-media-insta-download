@@ -1,0 +1,24 @@
+button {
+  height: 34px;
+  width: 34px;
+  border: none;
+  padding-left: 11px;
+  background-color: #74c32a;
+}
+
+.shaft {
+  display: block;
+  width: 6px;
+  height: 9px;
+  margin-left: 3px;
+  background-color: white;
+}
+
+.tip {
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 6px dotted transparent;
+  border-right: 6px dotted transparent;
+  border-top: 8px solid white;
+}
